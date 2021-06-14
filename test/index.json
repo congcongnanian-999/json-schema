@@ -1,0 +1,50 @@
+{
+	"type": "object",
+	"properties": {
+		"name": {
+			"type": "string",
+			"displayName": "用户姓名",
+			"required": true,
+			"messageMap": {
+				"required": "用户姓名不能为空",
+			}
+		},
+		"age": {
+			"type": "number",
+			"displayName": "用户年纪",
+			"required": true,
+			"messageMap": {
+				"required": "用户年纪不能为空",
+			}
+		},
+		"phone": {
+			"type": "number",
+			"displayName": "用户年纪",
+			"required": true,
+			"messageMap": {
+				"required": "用户年纪不能为空",
+			}
+		},
+		"cover": {
+			"type": "string",
+			"displayName": "用户年纪",
+			"required": true,
+			"messageMap": {
+				"required": "用户年纪不能为空",
+			}
+		},
+		"other": {
+			"type": "array",
+			"displayName": "AAA",
+			"minItems": 1,
+			"maxItems": 9,
+			"items": {
+				"type": "string"
+			},
+			"messageMap": {
+				"minItems": "AAA最少要有1个",
+				"maxItems": "AAA最多不能超过9个"
+			}
+		}
+	}
+}
